@@ -5,6 +5,7 @@
 * acpi-cpufreq driver
 * IPMI
 
+
 ## Scripts description
 
 * power_monitor: collect power information using IPMI and a program to stress the cpu to the maximum.
@@ -15,6 +16,11 @@
 ## Execution help
 ```
 python script.py -h
+```
+
+## Environment setup
+```
+source sc18/bin/activate
 ```
 
 ### Examples usage:
