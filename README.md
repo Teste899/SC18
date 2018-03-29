@@ -24,6 +24,8 @@ python power_fitting.py power_model
 
 python2.7 performance_monitor.py cpu_load '16,32' 32 '_nt_ 5,_nt_ 10' 1 10
 python2.7 performance_fitting.py cpu_load 1
+
+the argument with _nt_ will be replace by the number of treads on the executions
 ```
 
 
